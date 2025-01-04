@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+header{
+  background:#000;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+header nav ul{
+  list-style: none;
+  display: flex;
+}
+header nav ul li{
+  margin-left: 1rem;
+}
+header nav ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+.hero{
+  background: url('./assets/back.jfif') no-repeat center center/cover;
+  text-align: center;
+  color: #fff;
+  padding: 4rem 2rem;
+}
+.hero h1{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.hero p{
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.hero button{
+  background: #ffd700;
+  color: #000;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.hero button:hover{
+  background: #ffcc00;
+}
+#collection{
+  padding: 2rem;
+  text-align: center;
+}
+#collection h2{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.gallery{
+  display: flex;
+  justify-content: center;
+  gap:1rem;
+}
+.gallery .item img{
+  width:150px;
+  height: 150px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+#about{
+  background: #f9f9f9;
+  padding: 2rem;
+  text-align: center;
+}
+#about h2{
+  margin-bottom: 1rem;
+}
+footer{
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
